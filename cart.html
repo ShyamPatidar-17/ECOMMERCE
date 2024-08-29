@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href=""><img src="logo.png" class="logo" alt=" "> </a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="home.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About us</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+       
+        <h2>#cart</h2>
+        
+        <p>Add Your coupon & SAVE upto 70%!</p>
+        
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table>
+            <th>
+                <tr>
+                    <td>REMOVE</td>            
+                    <td>IMAGE</td>             
+                    <td>PRODUCT</td>               
+                    <td>PRICE</td>             
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </th>
+        <tr class="items">
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+            <td><img src="PRODUCTS/f1.jpg" alt=""></td>
+            <td>Cartoon Astronout T-shirts</td>
+            <td>Rs. 1,499</td>
+            <td><input type="number" value="1"></td>
+            <td>Rs.1,499</td>
+        </tr>
+        <tr class="items">
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+            <td><img src="PRODUCTS/f2.jpg" alt=""></td>
+            <td>Cartoon Astronout T-shirts</td>
+            <td>Rs. 1,499</td>
+            <td><input type="number" value="1"></td>
+            <td>Rs.1,499</td>
+        </tr>
+        <tr class="items">
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+            <td><img src="PRODUCTS/f3.jpg" alt=""></td>
+            <td>Cartoon Astronout T-shirts</td>
+            <td>Rs. 1,499</td>
+            <td><input type="number" value="1"></td>
+            <td>Rs.1,499</td>
+        </tr>
+        </table>
+    </section>
+
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart subtotal</td>
+                <td>Rs.4,497</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>Rs. 4,497</strong></td>
+            </tr>
+        </table>
+        <button  class="normal">Proceed to check out</button>
+    </div>
+  </section>
+
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 363, Main Road Tarana  Madhya Pradesh,India</p>
+            <p><strong>Phone: </strong> (+91) 777 1030 602 / (+91) 826 9100 563</p>
+            <p> <strong>Hours: </strong> 09:00 - 09:00 , Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon"> 
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Informations</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play Store</p>
+            <div class="row">
+                <img src="IMAGES/PAY/app.jpg" alt="">
+                <img src="IMAGES/PAY/play.jpg" alt="">
+                <p>Secured Payment Gateways</p>
+                <img src="IMAGES/PAY/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2024, Shyam Patidar - Webpage </p>
+        </div> 
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
